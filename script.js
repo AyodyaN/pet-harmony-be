@@ -4,4 +4,4 @@ echo "NPM INSTALL"
 npm install
 
 echo "RUN THE APPLICATION"
-npm run dev
+pm2 start npm --name pet-harmony-be -- run dev
